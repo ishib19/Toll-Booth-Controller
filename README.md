@@ -36,13 +36,20 @@ A complete ASIC implementation of a Mealy FSM-based **Digital Toll Booth Control
     - Supports gate testing, toll rate configuration, and daily counter reset via `reset_counters`  
 
 ## 📐 ASIC Flow Highlights
-- RTL coded in **Verilog** with **Mealy FSM architecture**
+- RTL coded in **Verilog** with Mealy FSM architecture
 - Simulated using **nclaunch** testbenches and waveform outputs
-- Synthesized via **Genus**, generating netlists and area reports
+- Synthesized via **Genus**, generating netlists and area, power, timing reports
 - Full PnR (Placement and Routing) with floorplanning, powerplanning, placement, clock tree synthesis, & routing using **Innovus**
 - RC extraction and STA performed in **Tempus**
 - Timing violation fixes applied to resolve negative slack and ensure timing closure
 
-## 🗂 Folder
+## 🗂 Repository folders
 ├── README.md
 ├── Verilog codes
+├──├── tollboothcontroller.v /module code
+├──├── tollboothcontrollertb.v /testbench with 6 cases
+├── Constraints / constraints and scripts used: constraints1.sdc, setup.g, template.tcl
+├── Project Outputs 
+├──├── Toll Booth Controller Reports & Screenshots.pdf /pdf containing **reports and output screenshots** 
+├──├── Ouputs screenshots /folder containing flow visuals/tool outputs screenshots only
+├── Backend outputs /output text and synthesis files: .map, .mtarpt, .spef, .gds
