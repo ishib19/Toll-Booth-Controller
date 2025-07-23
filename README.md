@@ -44,12 +44,12 @@ A complete ASIC implementation of a Mealy FSM-based **Digital Toll Booth Control
 - Timing violation fixes applied to resolve negative slack and ensure timing closure
 
 ## 🗂 Repository folders
-├── README.md
-├── Verilog codes
-├──├── tollboothcontroller.v /module code
-├──├── tollboothcontrollertb.v /testbench with 6 cases
-├── Constraints / constraints and scripts used: constraints1.sdc, setup.g, template.tcl
-├── Project Outputs 
-├──├── Toll Booth Controller Reports & Screenshots.pdf /pdf containing **reports and output screenshots** 
-├──├── Ouputs screenshots /folder containing flow visuals/tool outputs screenshots only
-├── Backend outputs /output text and synthesis files: .map, .mtarpt, .spef, .gds
+├── README.md <br>
+├── Verilog codes <br>
+├──├── tollboothcontroller.v /module code<br>
+├──├── tollboothcontrollertb.v /testbench with 6 cases <br>
+├── Constraints / constraints and scripts used: constraints1.sdc, setup.g, template.tcl <br>
+├── Project Outputs <br>
+├──├── Toll Booth Controller Reports & Screenshots.pdf /pdf containing **reports and output screenshots** <br>
+├──├── Ouputs screenshots /folder containing flow visuals/tool outputs screenshots only <br>
+├── Backend outputs /output text and synthesis files: .map, .mtarpt, .spef, .gds<br>
